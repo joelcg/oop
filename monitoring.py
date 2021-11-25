@@ -1,6 +1,6 @@
 import psutil as psu
 
-class monitor:
+class monitor1:
 
   def __mem_swap(self):
     print(self.psu.swap_memory())
@@ -23,7 +23,7 @@ class monitor:
   def _cpu_freq(self):
   	print(self.psu.cpu_freq())
     
-class monitor:
+class monitor2:
 
   def _vmem(self):
     print(self.psu.virtual_memory())
