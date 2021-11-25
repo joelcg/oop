@@ -3,8 +3,6 @@ kivy.require('1.0.6')
 
 from kivy.uix.label import Label
 from kivy.app import App
-from kivy.uix.gridlayout import GridLayout
-from kivy.uix.textinput import TextInput
 
 class MyApp(App):
     
